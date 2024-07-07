@@ -1,0 +1,7 @@
+john and bob: 127.93 seconds
+buffy and eva: 184.52 seconds
+buffy and eva: 17.28 seconds
+buffy and eva: 47.45 seconds
+srin and sreya: 40.09 seconds
+srin and srid: 63.22 seconds
+buffy and eva: 102.99 seconds

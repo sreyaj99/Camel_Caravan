@@ -1,0 +1,34 @@
+---
+group:
+  - name: Sanjum Sahni
+    netid: ss3873
+  - name: Sreya Jonnalagadda
+    netid: sj652
+  - name: Srinithi Krishnamoorthy
+    netid: sk2693
+pm:
+  name: Brandon Lu 
+  netid: bl533
+publish: true
+title: "Caravan of Camels"
+git-repo: "https://github.coecis.cornell.edu/ss3873/Battleship3110.git"
+demo-video-url: ""
+desc: >
+  Our project is a twist on the traditional game of Battleship. However, instead
+  of battleships, the game is played with camels. The game consists of a grid 
+  and is a two player game. On the grid, there is one camel placed randomly and
+  a caravan of two camels placed randomly. The players have to take turns
+  guessing where the camels are placed on the grid by inputting the 
+  grid coordinates. Whatever player guesses where all the camels are placed
+  first, wins the game! The two players play the same game on the same 
+  terminal in which they alternate turns. There is also a game log that the 
+  users can connect to; this game log stores the user's names, 
+  when they connect to the game log, when they disconnect to the game log, and 
+  the combined time it takes for the two users to complete the one game of 
+  Caravan of Camels. Additionaly, two player pairing can join along with other
+  two player pairing also! The interface is completely programmable as new 
+  functions can be added and grid dimensions can be easily changed or modified. 
+  The board is designed using arrays. 
+
+  Standard visual I/O is supported. The board is outputted and the user can
+  input the coordinates they would like to get through the terminal. 

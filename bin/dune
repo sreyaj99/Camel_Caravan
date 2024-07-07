@@ -1,0 +1,6 @@
+(executable
+ (public_name battleship)
+ (name main)
+ (libraries battleship lwt.unix)
+ (preprocess
+  (pps lwt_ppx)))

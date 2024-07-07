@@ -1,0 +1,28 @@
+How to install and build the system for this project:
+
+1. Begin by updating OPAM if you have not already by running the following in 
+your terminal:
+$ opam update
+$ opam upgrade
+
+2. Now in order to get an understanding of hhow the game is played, run the
+following commands in your terminal: 
+$ dune build
+$ dune exec bin/main.exe -- -h
+
+3. In order to run the game, run the following in your terminal to open up
+the git log that logs how long it takes two players to complete one game of 
+Caravan of Camels:
+$ dune exec bin/main.exe log [ip_address] [port]
+
+4. Now in order for two players to actually play the game, in a different 
+terminal run this command in your terminal:
+$ dune exec bin/main.exe users [ip_address] [port] [player1_name] [player2_name]
+
+3. After running the commands above you should see the game boards as well as a
+message reading "Welcome to Caravan of Camels!". 
+This indicates the game has begun and you can proceed to enter your inputs 
+based on the messages. First player1 takes their turn then player2 takes their
+turn and it continues to alternate (this is also explained in the help 
+command as listed above in step 2)
+
